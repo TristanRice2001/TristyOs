@@ -1,0 +1,9 @@
+extern main
+global _start
+
+_start:
+	inc eax
+	[bits 16]
+	jmp main
+	inc eax
+	cli
